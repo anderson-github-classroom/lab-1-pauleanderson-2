@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "rm -rf ../csc-369-student && git clone https://github.com/anderson-github-classroom/csc-369-student ../csc-369-student && sudo -H pip3 install wheel setuptools && sudo apt-get install -y parallel && sudo -H pip3 install -r ../csc-369-student/requirements.txt",
+      "run": "pytest ../csc-369-student/tests/test_Lab1.py::test_exercise_1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ../csc-369-student/tests/test_Lab1.py::test_exercise_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ../csc-369-student/tests/test_Lab1.py::test_exercise_3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ../csc-369-student/tests/test_Lab1.py::test_exercise_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 5",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ../csc-369-student/tests/test_Lab1.py::test_exercise_5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
